@@ -8,6 +8,7 @@
     "eslint": "^8.25.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
     "prettier": "^2.7.1"
   },
   "scripts": {
@@ -15,5 +16,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "husky" : {
+    "hooks" : {
+      "pre-commit" : "echo \"이것은 커밋전에 출력됨\""
+    }
+  }
 }
