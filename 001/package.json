@@ -1,0 +1,19 @@
+{
+  "name": "001",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "lint": "eslint src --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
